@@ -4,10 +4,10 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/74960', function (req, res) {
-    res.redirect('https://www.baidu.com');
+    res.redirect('https://www.douyu.com/74906');
 })
 
-var server = app.listen(9081, function () {
+var server = app.listen(80, function () {
 
     var host = server.address().address
     var port = server.address().port

@@ -5,7 +5,13 @@ app.use(express.static('public'));
 
 app.get('/74960', function (req, res) {
     res.redirect('https://www.douyu.com/74906');
-})
+});
+app.get('/longdd', function (req, res) {
+    res.redirect('https://www.huya.com/longdd');
+});
+app.get('/9999', function (req, res) {
+    res.redirect('https://www.douyu.com/9999');
+});
 
 var server = app.listen(80, function () {
 

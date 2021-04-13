@@ -64,3 +64,19 @@ h1:nth-child(7){ transform:translateZ(30px); }
 h1:nth-child(8){ transform:translateZ(35px); }
 h1:nth-child(9){ transform:translateZ(40px); }
 h1:nth-child(10){ transform:translateZ(45px); }
+
+body {
+    height: 100%;
+}
+
+.baian-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    color: white;
+}
+.baian-wrap a {
+    color: inherit;
+}

@@ -1,6 +1,8 @@
 //express_demo.js 文件
 var express = require('express');
 var app = express();
+var logger = require('morgan');
+app.use(logger('dev'));
 app.use(express.static('public'));
 
 app.get('/74960', function (req, res) {

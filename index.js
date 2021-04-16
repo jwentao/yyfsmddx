@@ -15,7 +15,7 @@ app.get('/9999', function (req, res) {
     res.redirect('https://www.douyu.com/9999');
 });
 
-var server = app.listen(8080, function () {
+var server = app.listen(8888, function () {
 
     var host = server.address().address
     var port = server.address().port

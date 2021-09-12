@@ -106,7 +106,7 @@
 		document.title = target === 'offer' ? '发起方' : '接收方';
 
 		message.log('信令通道（WebSocket）创建中......');
-		const socket = new WebSocket('ws://yyfsmddx.cn/rtc');
+		const socket = new WebSocket('wss://yyfsmddx.cn/rtc');
 		// const socket = new WebSocket('ws://localhost:8888/rtc');
 		socket.onopen = () => {
 			message.log('信令通道创建成功！');
